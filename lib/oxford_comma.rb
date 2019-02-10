@@ -6,5 +6,5 @@ def oxford_comma(array)
       array.insert(-1, "and #{array[array.size-1]}")
       array.delete_at(array.size-2)
     end
-  return array.join", "
+  return array.join" "
 end
