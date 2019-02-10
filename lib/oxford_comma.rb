@@ -3,7 +3,7 @@ joined = []
   if array.size == 2
     array.insert(-1, "and #{array[array.size-1]}")
     array.delete_at(array.size-2)
-    joined = array.join
+    joined = array
   elsif array.size > 2
       array.insert(-1, "and #{array[array.size-1]}")
       array.delete_at(array.size-2)
